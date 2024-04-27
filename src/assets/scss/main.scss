@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    font-weight: 400;
+    src: url('../fonts/Comfortaa-Regular.woff') format('woff'),
+        url('../fonts/Comfortaa-Regular.woff2') format(woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    font-weight: 700;
+    src: url('../fonts/Comfortaa-Bold.woff') format('woff'),
+        url('../fonts/Comfortaa-Bold.woff2') format(woff2);
+    font-display: swap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.holder-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: "Comfortaa";
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+#root {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 700;
+    margin: 0 0 20px;
+
+    @media (max-width: 1024px) {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+button {
+    outline: none;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
